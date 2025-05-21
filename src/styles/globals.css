@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-800 font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+  
+  h1 {
+    @apply leading-tight;
+  }
+  
+  h2 {
+    @apply leading-tight;
+  }
+  
+  h3 {
+    /* サイズや色は各コンポーネントで指定 */
+  }
+  
+  h4 {
+    /* サイズや色は各コンポーネントで指定 */
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 inline-block text-center;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-500 text-white hover:bg-primary-600 shadow-md hover:shadow-lg;
+    @apply dark:bg-white dark:text-black dark:border dark:border-black dark:hover:bg-gray-100;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-white text-primary-500 border border-primary-500 hover:bg-primary-50;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+}
