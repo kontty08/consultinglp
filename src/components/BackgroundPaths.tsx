@@ -68,7 +68,7 @@ export function BackgroundPaths({
                     style={{ opacity: 1, transition: 'opacity 2s' }}
                     className="max-w-5xl mx-auto"
                 >
-                    <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold mb-8 tracking-tighter bg-gradient-to-r from-neutral-900 to-neutral-400 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-neutral-100 dark:to-neutral-400 dark:bg-clip-text dark:text-transparent drop-shadow-lg">
+                    <h1 className="text-5xl sm:text-7xl md:text-7xl font-extrabold mb-8 tracking-tighter bg-gradient-to-r from-neutral-900 to-neutral-400 bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-neutral-100 dark:to-neutral-400 dark:bg-clip-text dark:text-transparent drop-shadow-lg">
                         {title}
                     </h1>
                 </div>
